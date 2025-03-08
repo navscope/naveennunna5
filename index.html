@@ -1230,7 +1230,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const service = formData.get("service");
     const message = formData.get("message");
     const whatsappMessage = `New Contact Form Submission:\n\nName: ${name}\nEmail: ${email}\nService: ${service}\nMessage: ${message}`;
-    const whatsappUrl = `https://wa.me/+1234567890?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/+6305235094?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, "_blank");
     successModal.classList.remove("hidden");
     form.reset();
